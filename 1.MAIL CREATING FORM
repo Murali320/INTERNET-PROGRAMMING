@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>E=mail form</title>
+</head>
+<body>
+<p>
+<label for="name">Enter your Name:</label><br>
+<input type="text" id="name" name="name"><br>
+
+<label for="name">Enter your last name(optional)</label><br>
+<input type = "text" id="name" name="name"><br>
+
+<label for="date-of-birth">select your DOB:</label>
+<div class="select-date of birth">
+  <input type="number" id="day" name="day">
+  <select id="select-month">
+  	  <option value="0">January
+    	  <option value="1">February
+  	  <option value="2">March
+  	  <option value="3">April
+  	  <option value="4">May
+  	  <option value="5">June
+  	  <option value="6">July
+  	  <option value="7">August
+  	  <option value="8">September
+  	  <option value="9">October
+  	  <option value="10">November
+  	  <option value="11">December
+  </select>
+  <input type="number" id="year" name="year"><br>
+</div><br>
+
+<label for="gender">Choose gender:</label>
+<select name="gender" id="gender">
+    <option value="male">male</option>
+  <option value="fe-male">fe-male</option>
+</select><br>
+<br>
+<label for="mail">Enter a mail(eg:123@gmail.com):</label>
+<input type="text" id="mail" name="mail"><br><br>
+
+<label for="password">Enter your password:</label>
+<input type="text" id="password" name="password"><br><br>
+
+<label for="password">re-type password:</label>
+<input type="text" id="password" name="password"><br><br>
+
+<button type="button">CONFIRM</button><br><br>
+
+<label for="phno">Phone number:</label>
+<input type="number" id="phno" name="phno"><br><br>
+<p>Address:</p>
+<div style="width: 200px; height: 100px; border: 1px solid black;">
+</div><br><br>
+
+<label for="state">enter your state:</label>
+<input type="text" id="state" name="state"><br><br>
+
+<label for="country">enter your country:</label>
+<input type="text" id="country" name="country"><br><br>
+
+<label for="language">Choose languages known:</label>
+<select languages="language" id="language">
+    <option value="telugu">telugu</option>
+    <option value="hindi">hindi</option>
+    <option value="english">english</option>  
+</select>
+<br><br>
+<button type="button">SUBMIT</button>
+</body>
+<html?>
