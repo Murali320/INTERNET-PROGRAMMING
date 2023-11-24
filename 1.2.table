@@ -1,0 +1,41 @@
+<html>
+<body>
+<table border="1" width="2",height="2">
+  <tr>
+    <th>Batch no</th>
+    <th>Reg no</th>
+    <th>Name</th>
+    <th>Domain</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td rowspan="3">1</td>
+    <td>19268410</td>
+   <tr>
+    <td>19268467</td>
+   </tr>
+   <tr>
+    <td>19268428</td>
+     <td>arun</td>
+     <td>iot</td>
+     <td>home authentication</td>
+  </tr><br><br>
+  <tr>
+    <td>2</td>
+    <td>19268445</td>
+    <td>selvi</td>
+    <td>iot</td>
+    <td>automated alarm</td>
+  </tr><br><br>
+  <tr>
+    <td rowspan="2">3</td>
+    <td>19268401</td>
+  <tr>
+    <td>19268427</td>
+    <td>karan</td>
+    <td>image processing</td>
+    <td>face recognition</td>
+  </tr>
+</table>
+</body>
+</html>
